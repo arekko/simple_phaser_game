@@ -11,7 +11,17 @@ export default class GameScene extends Phaser.Scene {
         }
         //Game loop
         create(){
-            const logoSprite = this.add.sprite(400, 300, 'logo');
+            this.logoSprite = this.add.sprite(400, 300, 'logo');
+        }
+
+
+        update() {
+            this.logoSprite.x ++;
+                
+            
+            
+            
+
         }
 
 
